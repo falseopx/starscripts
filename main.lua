@@ -93,8 +93,8 @@ game:GetService("Players").LocalPlayer.Idled:connect(function()
    vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 end)
 	-- games
-loader:registerGame(6447798030, "Funky Friday", "https://starwhitelist.000webhostapp.com/Scripts/dfsfdsFunkygsdfgfds")
-loader:registerGame(2262441883, "Electric State", "https://starwhitelist.000webhostapp.com/Scripts/fdsfdsfElectricsfds")
+loader:registerGame(6447798030, "Funky Friday", "https://raw.githubusercontent.com/falseopx/starscripts/main/funkyfriday.lua")
+loader:registerGame(2262441883, "Electric State", "https://raw.githubusercontent.com/falseopx/starscripts/main/electricstate.lua")
 
 local detectedGame = loader:detectGame()
 if detectedGame then
